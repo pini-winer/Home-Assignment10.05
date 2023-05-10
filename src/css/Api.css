@@ -1,0 +1,37 @@
+table {
+    align-items: center;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 3%;
+    font-size: 16px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #fe9d9d;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8bf892;
+  }
+  
+  tr:hover {
+    background-color: #65cefb;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    border: none;
+    border-radius: 16px;
+    background-color: #785dbe;
+  }
+  
